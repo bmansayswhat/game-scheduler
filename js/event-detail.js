@@ -172,7 +172,7 @@ function PlayerDelete(id, joinType)
 function EventDelete()
 {
   var ref = firebase.database().ref('/' + game + '/' + e).remove();
-  document.location.href=siteURL + "/past-events.html";
+  document.location.href=siteURL + "/index.html";
 }
 
 $('#deleteEvent').on('shown.bs.modal', function () {
